@@ -364,7 +364,161 @@ footer p {color: #EDBC81;}
 .fab {
     padding: 10px;
     font-size: 30px;
-    width: 50px;}  
+    width: 50px;} 
+    
+/*this is for styling mentorpairing page*/
+figure,
+     video {
+            margin: 0 auto;
+            /* display: block; */
+            text-align: center;
+            top: 100px;
+        }
+     figure {
+         width: 900px;
+         position: fixed;
+         top: 200px;
+         left: 510px;
+     } 
+     h2 {font-size: 40px;
+        height: 100px;
+        width: 400px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 50px;} 
+
+        #bodytext {
+            background-color: #EDBC81;
+            padding: 10px;
+            font-size: 25px;
+            width: 800px;
+            margin: 0 auto;
+            text-align: center;} 
+            
+ /*this is for styling onesession page*/
+ 
+ #group1 {width: 700px;
+    padding: 10px;
+    min-width: 250px;
+    height: 300px;
+    float: left;
+    position: fixed;
+    left: 200px;
+    top: 200px;}
+
+    #group1 img {float: left;
+    padding-right: 1em;}
+
+    /* Pseudo element */
+    #group1::after {content: "";
+    clear: both;
+    display: table;}
+
+    #group2 {width: 700px;
+    padding: 10px;
+    min-width: 250px;
+    height: 300px;
+    float: right;
+    position: fixed;
+    left: 1000px;
+    top: 200px;}
+
+    #group2 img {float: left;
+    padding-right: 1em;}
+
+    /* Pseudo element */
+    #group2::after {content: "";
+    clear: both;
+    display: table;}
+
+    #group3 {width: 700px;
+    padding: 10px;
+    min-width: 250px;
+    height: 300px;
+    float: left;
+    position: fixed;
+    left: 200px;
+    top: 580px;}
+
+    #group3 img {float: right;
+    padding-left: 1em;}
+
+    /* Pseudo element */
+    #group3::after {content: "";
+    clear: both;
+    display: table;}
+
+    #group4 {width: 700px;
+    padding: 10px;
+    min-width: 250px;
+    height: 300px;
+    float: right;
+    position: fixed;
+    left: 1000px;
+    top: 580px;}
+
+    #group4 img {float: right;
+    padding-left: 1em;}
+
+    /* Pseudo element */
+    #group4::after {content: "";
+    clear: both;
+    display: table;}
+
+    img:hover {opacity: 30%;}
+
+
+    .alr {text-align: right;}
+    .all {text-align: left;}
+    
+ /*this is for styling helpkit page*/
+ #help {width: 600px;
+    height: 700px;
+    position: fixed;
+    top: 150px;
+    left: 100px;
+    background-color: #EDBC81;
+    opacity: 30%;
+    border-radius: 20px;}
+
+    #bodytexts {position: fixed;
+    top: 170px;
+    width: 560px;
+    left: 120px;
+    color: white;}
+
+    #bodytexts p {
+        font-size: 30px;}
+        
+ /*this is for styling schedule page*/
+ table {
+    width:1200px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;}
+    
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;}
+
+th, td {
+    padding: 5px;
+    text-align: left;}
+
+table#t01 tr:nth-child(even) {
+    background-color: wheat;}
+
+table#t01 tr:nth-child(odd) {
+   background-color:#EDBC81;}
+
+table#t01 th {
+    background-color: black;
+    color: white;}       
 
 /* This one is for iPad size css. If the width reaches 1024px, this new CSS rule will be applied */
 @media (max-width:1024px){
@@ -424,6 +578,13 @@ footer p {color: #EDBC81;}
     /*this is for styling the footer*/
     footer {
     background-color: #000000}}
+    /*this is for styling helpkit page*/
+    #help {
+    top: 310px;
+    left: 210px;}
+    #bodytexts {
+    top: 330px;
+    left: 230px;}
 
 /*this is for styling the iphone sizes*/    
 @media (max-width:414px){
@@ -560,14 +721,26 @@ footer p {color: #EDBC81;}
     #covered {
     width: 370px;
     height: 550px;
-    left: 20px;
-        } 
+    left: 20px;} 
 
     /*this is for styling the footer*/
     footer {
     height: 100px;}
     .fab {
     padding: 5px;}
+    /*this is for styling helpkit page*/
+    #help {width: 350px;
+    height: 550px;
+    top: 180px;
+    left: 30px;}
+
+    #bodytexts {
+    top: 200px;
+    width: 330px;
+    left: 40px;}
+
+    #bodytexts p {
+        font-size: 20px;}
 }
 
 
