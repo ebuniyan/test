@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./images/mentorspot.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <style>
+        html {background: url(./images/helping-hands.jpg) center center no-repeat no-repeat fixed; background-size: cover;}
+    </style>
+</head>
+
+<body>
+    <div class="logo"><img src="./images/mentorspot.png" width="150px" alt="company logo"></div>
+    <div id="menu">
+        <ul>
+            <a href="landingpage.html"><li>Home</li></a>
+            <a href="#"><li>Portfolio</li></a>
+            <a href="contact.html"><li>Contact Us</li></a>
+        </ul>
+    </div>
+    <i class="fas fa-bars"></i>
+    <div id="covered"></div>
+    <form action="mailto:ebunubi@yahoo.com" enctype="text/plain">
+        <fieldset>
+            <div id="part1">
+            <legend>Send us a Message</legend>
+            <br>
+           Contact name
+            <br><input type="text" name="contact" size="70" maxlength="150">
+            <br>
+            <br>
+            Phone Number
+            <br><input type="tel" name="phone" size="70" maxlength="150">
+            <br>
+            <br>
+            Email
+            <br><input type="email" naME="email" size="70" maxlength="150">
+            <br>
+            <br>
+            Message
+            <br><textarea name="comment" id="comment" cols="63" rows="10">Please comment here</textarea>
+            <br>
+        </div>
+
+            <div id="part2">
+            Gender
+            <br><input type="radio" name="gender" value="male">male
+            <br><input type="radio" name="gender" value="female">female
+            <br>
+            Can we send you our newsletter?
+            <br><input type="checkbox" id="yes" name="yes"><label for="yes">Yes</label>
+            <br><input type="checkbox" id="no" name="no"><label for="ski">No</label>
+            </label>
+            <br>
+
+            <br>
+            Which Service Would You Prefer?
+            <br><select name="dropdown">
+                <option value="BMW">One On One Session</option>
+                <option value="Benz">Group Session</option>
+                <option value="Audi">Mentor Pairing</option>
+                <option value="Tesla">Help Kit</option>
+            </select>
+
+            <br>
+            <br>File Upload
+            <br><input type="file" name="fileupload" accept="image/*">
+            <br><input class="buttonform" type="reset" name="reset" value="reset">
+            <br><input class="buttonform" type="submit" type="submit" value="submit">
+        </div>
+        </fieldset>
+    </form>
+    <footer>
+        <div id="socialmedia"></div>
+        <a href="https://www.instagram.com/ebuniyan/?hl=en"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com/ebunubi"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.pinterest.com/ebunolaniyan/_saved/"><i class="fab fa-pinterest-square"></i></a>
+        </div>
+        <p>&copy;Ebun Olaniyan 2020. All rights reserved.</p>
+     </footer>
+</body>
+</html>
