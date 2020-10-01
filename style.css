@@ -72,11 +72,13 @@ a:hover {color: #EDBC81;}
     z-index: 50000;}
 /*for the animation*/    
 span {
+    font-family: 'Aladin', cursive;
+    font-size: 90px;
     animation-name: test;
     animation-duration: 3s;}
 @keyframes test {
     0% {
-    color: wheat;
+    color: #EDBC81;
     position: fixed;}
     20% {
     color: #ffcccb;
@@ -90,7 +92,7 @@ span {
     right: 100px;
     font-size: 2em;}
     60% {
-    color: #EDBC81;
+    color: wheat;
     position: fixed;
     top: 380px;
     right: 200px;
@@ -733,7 +735,7 @@ figure {
 
 /*this is for styling the iphone sizes*/    
 @media (max-width:414px){
-/*for styling landing page*/
+/*for styling index page*/
 ul {right: 20px;}
 #menu{display:none;}
 #main h1{
@@ -749,6 +751,7 @@ ul {right: 20px;}
     top: 30vh;
     left: 15vw;
     font-size: 4vw;}
+span {font-size: 35px;}
 
 /*for styling portfolio*/
 .fa-bars{
