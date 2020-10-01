@@ -24,6 +24,90 @@ a {color: white;}
 a:active {color: brown;}
 a:hover {color: #EDBC81;}
 
+/*this is for styling the index page*/ 
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    z-index: -50000px;} 
+#main {
+    color: white;
+    position: fixed;
+    top: 35vh;
+    left: 60vw;
+    z-index: 50000;}
+#main h1 {
+    /* 1em(M) means 16px */
+    font-size: 4em;
+    position: fixed;
+    top: 350px;}
+#main .middle {
+    top: 480px;
+    position: fixed;
+    font-size: 2.5em}    
+.button {
+    position: fixed;
+    top: 680px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5em;
+    background-color: #EDBC81;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;}
+.model {
+    /* for the location (bottom left) */
+    position: fixed;
+    width: 900px;
+    height: 900px;
+    bottom: 0px;
+    left: 0px;
+    top: 250px;
+    background-size: cover;
+    z-index: 50000;}
+/*for the animation*/    
+span {
+    animation-name: test;
+    animation-duration: 3s;}
+@keyframes test {
+    0% {
+    color: wheat;
+    position: fixed;}
+    20% {
+    color: #ffcccb;
+    position: fixed;
+    top: 300px;
+    font-size: 4.5em;}
+    40% {
+    color: palegreen;
+    position: fixed;
+    top: 300px;
+    right: 100px;
+    font-size: 2em;}
+    60% {
+    color: #EDBC81;
+    position: fixed;
+    top: 380px;
+    right: 200px;
+    font-size: 3em;}
+    80% {
+    color: white;
+    position: fixed;
+    top: 350px;
+    right: 300px;
+    font-size: 4.5em;}
+    100% {
+    color: #ffcccb;
+    position: fixed;
+    top: 300px;
+    right: 400px;
+    font-size: 2em;}}
+    
 /*this is for portfolio page styling*/
 .fa-user-alt {
     position: relative;;
@@ -90,7 +174,21 @@ a:hover {color: #EDBC81;}
     left: 100px;
     width: 280px;
     height: 220px;
-    transition: ease-in 2s;}
+    transition: ease-in 2s;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-iteration-count: 2;}
+/*this is for the animation*/
+@keyframes one {
+    from {
+    position: fixed;
+    top: 300px;
+    left: 100px;}
+    to {
+    position: fixed;
+    top: 640px;
+    left: 500px;} }
+
 #card1:hover {   
     transform: rotate(15deg);} 
 #card1 p{
@@ -111,7 +209,20 @@ a:hover {color: #EDBC81;}
     min-width: 250px;
     width: 280px;
     height: 220px;
-    transition: ease-in 2s;}
+    transition: ease-in 2s;
+    animation-name: two;
+    animation-duration: 2s;
+    animation-iteration-count: 2;}
+    /*this is for the animation*/
+@keyframes two {
+    from {
+    position: fixed;
+    top: 300px;
+    left: 500px;}
+    to {
+    position: fixed;
+    top: 640px;
+    left: 100px;} }
 #card2:hover {
     transform: rotate(-15deg);}       
 #card2 p{
@@ -133,7 +244,20 @@ a:hover {color: #EDBC81;}
     left: 110px;
     width: 280px;
     height: 220px;
-    transition: ease-in 2s;}
+    transition: ease-in 2s;
+    animation-name: three;
+    animation-duration: 2s;
+    animation-iteration-count: 2;}
+/*this is for the animation*/
+@keyframes three {
+    from {
+    position: fixed;
+    top: 640px;
+    left: 100px;}
+    to {
+    position: fixed;
+    top: 300px;
+    left: 100px;} }
 #card3:hover {
     transform: rotate(15deg);}    
 #card3 p{
@@ -154,7 +278,20 @@ a:hover {color: #EDBC81;}
     top: 630px;
     width: 280px;
     height: 220px;
-    transition: ease-in 2s;} 
+    transition: ease-in 2s;
+    animation-name: four;
+    animation-duration: 2s;
+    animation-iteration-count: 2;}
+/*this is for the animation*/
+@keyframes four {
+    from {
+    position: fixed;
+    top: 630px;
+    left: 500px;}
+    to {
+    position: fixed;
+    top: 300px;
+    left: 500px;} } 
 #card4:hover {
     transform: rotate(-15deg);}    
 #card4 p{
@@ -188,56 +325,6 @@ a:hover {color: #EDBC81;}
     top: 830px;
     left: 100px;}
 p {text-align: center;}
-
-/*this is for styling the landing page*/ 
-#myVideo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
-    z-index: -50000px;} 
-#main {
-    color: white;
-    position: fixed;
-    top: 35vh;
-    left: 60vw;
-    z-index: 50000;}
-#main h1 {
-    /* 1em(M) means 16px */
-    font-size: 4em;
-    position: fixed;
-    top: 350px;
-    animation-name: test;
-    animation-duration: 6s;}
-#main .middle {
-    top: 480px;
-    position: fixed;
-    font-size: 2.5em}    
-.button {
-    /* change the position based on its positioned parents*/
-    position: fixed;
-    top: 680px;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 1.5em;
-    background-color: #EDBC81;
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 10px;}
-.model {
-    /* for the location (bottom left) */
-    position: fixed;
-    width: 900px;
-    height: 900px;
-    bottom: 0px;
-    left: 0px;
-    top: 250px;
-    background-size: cover;
-    z-index: 50000;} 
     
 /*this is for styling the contact page*/
 input {
@@ -317,7 +404,7 @@ footer p {color: #EDBC81;}
     width: 50px;} 
     
 /*this is for styling mentorpairing page*/
-figure, video {
+figure, .vid {
     margin: 0 auto;
     /* display: block; */
     text-align: center;
@@ -458,7 +545,6 @@ table#t01 th {
     color: white;}
     
 /*this is for styling groupsession page*/
-#second img {float: left;}
 #first {
     width: 1500px;
     height: 380px;
@@ -469,6 +555,17 @@ table#t01 th {
     position: fixed;
     left: 150px;
     top: 150px;}
+#first img {
+    float: right;
+    width: 500px;}
+/* Pseudo element */
+#first::after {
+    content: "";
+    clear: both;
+    display: table;}
+.pfirst {
+    font-size: 30px;
+    text-align: left;}    
 #second {
     width: 1500px;
     height: 300px;
@@ -479,20 +576,14 @@ table#t01 th {
     position: fixed;
     left: 150px;
     top: 600px;}
-#first img {float: right;}
+#second img {
+    float: left;
+    width: 500px;}
 /* Pseudo element */
-#test::after {
+#second::after {
     content: "";
     clear: both;
     display: table;}
-/* Pseudo element */
-#first::after {
-    content: "";
-    clear: both;
-    display: table;}
-.pfirst {
-    font-size: 30px;
-    text-align: left;}
 .psecond {
     font-size: 30px;
     text-align: right;}
@@ -505,8 +596,12 @@ ul {
     position: fixed;
     width: 120px;
     height: auto;
+    line-height: 30px;
+    padding: 5px;
     margin-top: 60px;
-    right: 50px;}
+    right: 50px;
+    background-color: black;
+    background-size: cover;}
 #menu{
     display:none;}
 #main h1{
@@ -539,7 +634,7 @@ ul {
 #card1 {left: 180px; top: 380px;}
 #card2 {top: 380px;}
 #card3 {
-    left: 180px;
+    left: 190px;
     top: 700px;}
 #card4 {top: 690px;}
 .portfolio h1 {
@@ -579,7 +674,7 @@ footer {background-color: #000000}
 figure {
     top: 300px;
     left: 60px;} 
-#bodytext {left: 60px;} 
+#bodytext {left: 60px;}
     
 /*this is for styling the onesession page*/
 #group1 {
@@ -616,6 +711,25 @@ figure {
 #group4 img {
     width: 150px;
     height: 150px;}
+/*this is for styling groupsession page*/
+#first {
+    width: 800px;
+    height: 400px;
+    left: 50px;
+    top: 230px;}
+#first img {
+    width: 400px;}
+.pfirst {
+    font-size: 25px;}    
+#second {
+    width: 800px;
+    height: 320px;
+    left: 50px;
+    top: 730px;}
+#second img {
+    width: 400px;}
+.psecond {
+    font-size: 25px;}}
 
 /*this is for styling the iphone sizes*/    
 @media (max-width:414px){
@@ -759,7 +873,8 @@ h2 {
 figure {width: 380px;
     left: 15px;
     top: 190px;}
-video {width: 380px;}
+figure, .vid {
+    width: 380px;} 
 #bodytext {
     width: 350px;
     font-size: 18px;}
@@ -799,6 +914,26 @@ video {width: 380px;}
 #group4 img {
     width: 90px;
     height: 90px;}
+
+/*this is for styling groupsession page*/
+#first {
+    width: 330px;
+    height: 280px;
+    left: -20px;
+    top: 170px;}
+#first img {
+    width: 150px;}
+.pfirst {
+    font-size: 15px;}    
+#second {
+    width: 330px;
+    height: 210px;
+    left: -20px;
+    top: 500px;}
+#second img {
+    width: 150px;}
+.psecond {
+    font-size: 15px;}
 }
 
 
