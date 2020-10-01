@@ -16,12 +16,12 @@
     <div class="logo"><img src="./images/mentorspot.png" width="150px" alt="company logo"></div>
     <div id="menu">
         <ul>
-            <a href="landingpage.html"><li>Home</li></a>
-            <a href="#"><li>Portfolio</li></a>
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolios.html"><li>Portfolio</li></a>
             <a href="contact.html"><li>Contact</li></a>
         </ul>
     </div>
-    <i class="fas fa-bars"></i> 
+    <a href="javascript:void(0);" class="icon" onclick="toggleHamburger()"><i class="fas fa-bars"></i></a> 
     <h2>Help Kit</h2>
     <div id="help"></div>
     <div id="bodytexts">
@@ -37,6 +37,16 @@
         <a href="https://www.pinterest.com/ebunolaniyan/_saved/"><i class="fab fa-pinterest-square"></i></a>
         </div>
         <p>&copy;Ebun Olaniyan 2020. All rights reserved.</p>
-     </footer>   
+     </footer> 
+     <script>
+        function toggleHamburger() {
+            let x = document.getElementById("menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>  
 </body>
 </html>

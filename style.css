@@ -4,28 +4,26 @@ html {
     width: 100%;
     height: 100vh;
     font-family:Roboto, Arial, Helvetica, sans-serif; color: white;}
-
 .logo {
     position: fixed;
     top: 10px;
     left: 20px;
-    background-size: cover;}  
+    background-size: cover;} 
+
 /*this is for styling the navigation bar*/
 #menu {
     position: fixed;
     top: 10px;
     right: 50px;
     color: white;}
-
 li {
     display: inline-block;
     margin-left: 20px;
     font-size: 20px;}
+a {color: white;} 
+a:active {color: brown;}
+a:hover {color: #EDBC81;}
 
- a {
-     color: white;
- } 
- a:hover {color: wheat;}  
 /*this is for portfolio page styling*/
 .fa-user-alt {
     position: relative;;
@@ -36,10 +34,8 @@ li {
     display: block;
     width: 30%;
     margin:0 auto;} 
-
 .fa-user-alt:hover {
-    color: red;}    
-    
+    color: red;}       
 .fa-users {
     position: relative;;
     left:50px;
@@ -49,10 +45,8 @@ li {
     display: block;
     width: 30%;
     margin:0 auto;} 
-
 .fa-users:hover {
-    color: red;}
-    
+    color: red;}   
 .fa-user-friends {
     position: relative;;
     left:50px;
@@ -62,10 +56,8 @@ li {
     display: block;
     width: 30%;
     margin:0 auto;}
-
 .fa-user-friends:hover {
-    color: red;}    
-    
+    color: red;}      
 .fa-people-carry {
     position:relative;
     left:50px;
@@ -74,23 +66,19 @@ li {
     color: white;
     display: block;
     width: 30%;
-    margin:0 auto;}
-    
+    margin:0 auto;}   
 .fa-people-carry:hover{
-    color: red;}    
-    
+    color: red;}       
 .cards {
     width: 700px;
     height: 620px;
     float: left;
     position: fixed;
     left: 40px;}
-
 .cards::after {
     content: "";
     clear: both;
     display: table;}  
-
 #card1 {
     float: left;
     background-color: #EDBC81;
@@ -103,10 +91,8 @@ li {
     width: 280px;
     height: 220px;
     transition: ease-in 2s;}
-
 #card1:hover {   
     transform: rotate(15deg);} 
-
 #card1 p{
     position: absolute;
     width: 200px;
@@ -114,7 +100,6 @@ li {
     left: 40px;
     font-size: 25px;
     display: inline-block;}  
-
 #card2 {
     float: right;
     background-color: #EDBC81;
@@ -127,18 +112,15 @@ li {
     width: 280px;
     height: 220px;
     transition: ease-in 2s;}
-
 #card2:hover {
-    transform: rotate(-15deg);}    
-    
+    transform: rotate(-15deg);}       
 #card2 p{
     position: absolute;
     width: 200px;
     top: 150px;
     left: 50px;
     font-size: 25px;
-    display: inline-block;}    
-    
+    display: inline-block;}       
 #card3 {
     float: left;
     background-color: #EDBC81;
@@ -152,18 +134,15 @@ li {
     width: 280px;
     height: 220px;
     transition: ease-in 2s;}
-
 #card3:hover {
     transform: rotate(15deg);}    
-
 #card3 p{
     position: absolute;
     width: 200px;
     top: 150px;
     left: 40px;
     font-size: 25px;
-    display: inline-block;}
-    
+    display: inline-block;}   
 #card4 {
     float: right;
     background-color: #EDBC81;
@@ -176,25 +155,20 @@ li {
     width: 280px;
     height: 220px;
     transition: ease-in 2s;} 
-
 #card4:hover {
-    transform: rotate(-15deg);
-}    
-
+    transform: rotate(-15deg);}    
 #card4 p{
     position: absolute;
     width: 200px;
     top: 150px;
     left: 50px;
     font-size: 25px;
-    display: inline-block;}    
-        
+    display: inline-block;}           
 .portfolio h1 {
     position: fixed;
     left: 100px;
     top: 150px;
     font-size: 3.5em;} 
-
 .picture {
     position: fixed;
     display: block;
@@ -204,20 +178,16 @@ li {
     left: 1100px;
     top: 185px;
     transition: ease-in 2s;}
-
 .picture :hover {
     opacity: 60%;
     transform: scaleX(-1);}    
-
 #below h5{
     position: fixed;
     display: inline-block;
     font-size: 37px;
     top: 830px;
     left: 100px;}
-
-p {
-    text-align: center;}
+p {text-align: center;}
 
 /*this is for styling the landing page*/ 
 #myVideo {
@@ -228,31 +198,23 @@ p {
     min-height: 100%;
     background-size: cover;
     z-index: -50000px;} 
-
 #main {
     color: white;
     position: fixed;
     top: 35vh;
     left: 60vw;
     z-index: 50000;}
-
 #main h1 {
     /* 1em(M) means 16px */
     font-size: 4em;
     position: fixed;
     top: 350px;
-    transition: ease-in 2s;}
-
-#main h1:hover {
-    color: #EDBC81;
-    transform: scale(2,2);
-}    
-
+    animation-name: test;
+    animation-duration: 6s;}
 #main .middle {
     top: 480px;
     position: fixed;
     font-size: 2.5em}    
-
 .button {
     /* change the position based on its positioned parents*/
     position: fixed;
@@ -266,7 +228,6 @@ p {
     padding: 10px;
     color: #ffffff;
     border-radius: 10px;}
-
 .model {
     /* for the location (bottom left) */
     position: fixed;
@@ -285,19 +246,15 @@ input {
     margin: 5px;
     height: 20px;
     border-radius: 5px;}
-
 input:focus {
     background-color: wheat;}
-
 textarea {
     margin: 5px;
     height: 100px;
     border-radius: 5px;}
-
 legend {
     color: white;
     font-size: 3em;}
-
 .buttonform {
     width: 200px;
     height: 35px;
@@ -307,7 +264,6 @@ legend {
     text-align: center;
     padding: 5px;
     border-radius: 5px;}
-
 #covered {
     width: 1520px;
     height: 700px;
@@ -319,23 +275,19 @@ legend {
     top: 200px;
     left: 200px;
     opacity: 50%;
-    border-radius: 20px;
-}   
-
+    border-radius: 20px;}   
 select,
 option {
     font-size: 15px;
     padding: 10px;
     color: #7E8071;
     width: 200px;}
-
 #part1 {
     position: fixed;
     float: left;
     width: 700px;
     top: 280px;
     left: 300px;}
-
 #part2 {
     background-color: #EDBC81;
     padding: 10px;
@@ -358,49 +310,44 @@ footer {
     bottom: 0px;
     text-align: center;
     padding-top: 20px;}
-
 footer p {color: #EDBC81;}
-    
 .fab {
     padding: 10px;
     font-size: 30px;
     width: 50px;} 
     
 /*this is for styling mentorpairing page*/
-figure,
-     video {
-            margin: 0 auto;
-            /* display: block; */
-            text-align: center;
-            top: 100px;
-        }
-     figure {
-         width: 900px;
-         position: fixed;
-         top: 200px;
-         left: 510px;
-     } 
-     h2 {font-size: 40px;
-        height: 100px;
-        width: 400px;
-        line-height: 100px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 50px;} 
+figure, video {
+    margin: 0 auto;
+    /* display: block; */
+    text-align: center;
+    top: 100px;
+    width: 800px;}
+figure {
+    width: 900px;
+    position: fixed;
+    top: 200px;
+    left: 510px;} 
+h2 {font-size: 40px;
+    height: 100px;
+    width: 400px;
+    line-height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50px;} 
 
-        #bodytext {
-            background-color: #EDBC81;
-            padding: 10px;
-            font-size: 25px;
-            width: 800px;
-            margin: 0 auto;
-            text-align: center;} 
+#bodytext {
+    background-color: #EDBC81;
+    padding: 10px;
+    font-size: 25px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;} 
             
- /*this is for styling onesession page*/
- 
- #group1 {width: 700px;
+/*this is for styling onesession page*/
+#group1 {width: 700px;
     padding: 10px;
     min-width: 250px;
     height: 300px;
@@ -408,16 +355,15 @@ figure,
     position: fixed;
     left: 200px;
     top: 200px;}
-
-    #group1 img {float: left;
-    padding-right: 1em;}
-
-    /* Pseudo element */
-    #group1::after {content: "";
+#group1 img {float: left;
+    padding-right: 1em;
+    width: 200px;
+    height: 200px;}
+/* Pseudo element */
+#group1::after {content: "";
     clear: both;
     display: table;}
-
-    #group2 {width: 700px;
+#group2 {width: 700px;
     padding: 10px;
     min-width: 250px;
     height: 300px;
@@ -425,16 +371,15 @@ figure,
     position: fixed;
     left: 1000px;
     top: 200px;}
-
-    #group2 img {float: left;
-    padding-right: 1em;}
-
-    /* Pseudo element */
-    #group2::after {content: "";
+#group2 img {float: left;
+    padding-right: 1em;
+    width: 200px;
+    height: 200px;}
+/* Pseudo element */
+#group2::after {content: "";
     clear: both;
     display: table;}
-
-    #group3 {width: 700px;
+#group3 {width: 700px;
     padding: 10px;
     min-width: 250px;
     height: 300px;
@@ -442,16 +387,15 @@ figure,
     position: fixed;
     left: 200px;
     top: 580px;}
-
-    #group3 img {float: right;
-    padding-left: 1em;}
-
-    /* Pseudo element */
-    #group3::after {content: "";
+#group3 img {float: right;
+    padding-left: 1em;
+    width: 200px;
+    height: 200px;}
+/* Pseudo element */
+#group3::after {content: "";
     clear: both;
     display: table;}
-
-    #group4 {width: 700px;
+#group4 {width: 700px;
     padding: 10px;
     min-width: 250px;
     height: 300px;
@@ -459,23 +403,23 @@ figure,
     position: fixed;
     left: 1000px;
     top: 580px;}
-
-    #group4 img {float: right;
-    padding-left: 1em;}
-
-    /* Pseudo element */
-    #group4::after {content: "";
+#group4 img {float: right;
+    padding-left: 1em;
+    width: 200px;
+    height: 200px;}
+/* Pseudo element */
+#group4::after {content: "";
     clear: both;
     display: table;}
-
-    img:hover {opacity: 30%;}
-
-
-    .alr {text-align: right;}
-    .all {text-align: left;}
+img:hover {opacity: 30%;}
+.alr {text-align: right;
+    font-size: 25px;}
+.all {text-align: left;
+    font-size: 25px;}
     
- /*this is for styling helpkit page*/
- #help {width: 600px;
+/*this is for styling helpkit page*/
+#help {
+    width: 600px;
     height: 700px;
     position: fixed;
     top: 200px;
@@ -483,59 +427,99 @@ figure,
     background-color: #EDBC81;
     opacity: 30%;
     border-radius: 20px;}
-
-    #bodytexts {position: fixed;
+#bodytexts {position: fixed;
     top: 220px;
     width: 560px;
     left: 120px;
     color: white;}
-
-    #bodytexts p {
-        font-size: 30px;}
+#bodytexts p {
+    font-size: 30px;}
         
- /*this is for styling schedule page*/
- table {
+/*this is for styling schedule page*/
+table {
     width:1200px;
     position: relative;
     top: 100px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;}
-    
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;}
-
 th, td {
     padding: 5px;
     text-align: left;}
-
 table#t01 tr:nth-child(even) {
     background-color: wheat;}
-
 table#t01 tr:nth-child(odd) {
    background-color:#EDBC81;}
-
 table#t01 th {
     background-color: black;
-    color: white;}       
+    color: white;}
+    
+/*this is for styling groupsession page*/
+#second img {float: left;}
+#first {
+    width: 1500px;
+    height: 380px;
+    border: 5px dotted wheat;
+    margin: 20px 50px;
+    padding: 10px;
+    min-width: 250px;
+    position: fixed;
+    left: 150px;
+    top: 150px;}
+#second {
+    width: 1500px;
+    height: 300px;
+    border: 5px dotted wheat;
+    margin: 20px 50px;
+    padding: 10px;
+    min-width: 250px;
+    position: fixed;
+    left: 150px;
+    top: 600px;}
+#first img {float: right;}
+/* Pseudo element */
+#test::after {
+    content: "";
+    clear: both;
+    display: table;}
+/* Pseudo element */
+#first::after {
+    content: "";
+    clear: both;
+    display: table;}
+.pfirst {
+    font-size: 30px;
+    text-align: left;}
+.psecond {
+    font-size: 30px;
+    text-align: right;}
 
 /* This one is for iPad size css. If the width reaches 1024px, this new CSS rule will be applied */
 @media (max-width:1024px){
     /*for styling landing page*/
-    #menu{
+h2 {top: 100px;}
+ul {
+    position: fixed;
+    width: 120px;
+    height: auto;
+    margin-top: 60px;
+    right: 50px;}
+#menu{
     display:none;}
-    #main h1{
+#main h1{
     top: 20vh;
     left: 30vw;}
-    .button {display: none;}
-    #main .middle {
+.button {display: none;}
+#main .middle {
     top: 30vh;
     left: 15vw;}
-    .model {top: 42vh;
+.model {top: 42vh;
     left: 3vw;}
     /*for hamburger bar*/
-    .fa-bars{
+.fa-bars{
     display:block !important;
     color:white;
     position:fixed;
@@ -543,85 +527,124 @@ table#t01 th {
     left: 940px;
     font-size: 2em;}
     /*for styling porfolio page*/
-    #below h5 {font-size: 2em; 
+#below h5 {font-size: 2em; 
     width: 800px;
     display: block;
     left: 120px;
     top: 1000px;} 
-    #card1 p {left: 50px;}
-    #card2 p {left: 50px;}
-    #card3 p {left: 50px;}
-    #card4 p {left: 50px;} 
-    #card1 {left: 180px; top: 380px;}
-    #card2 {top: 380px;}
-    #card3 {left: 180px;
+#card1 p {left: 50px;}
+#card2 p {left: 50px;}
+#card3 p {left: 50px;}
+#card4 p {left: 50px;} 
+#card1 {left: 180px; top: 380px;}
+#card2 {top: 380px;}
+#card3 {
+    left: 180px;
     top: 700px;}
-    #card4 {top: 690px;}
-   .portfolio h1 {
+#card4 {top: 690px;}
+.portfolio h1 {
     left: 130px;
     top: 200px;}
     /*this is for contact page*/
-    #part1 {
+#part1 {
     top: 200px;
     left: 250px;} 
-    input {
-    height: 15px;}
-    #part2 {
+input {height: 15px;}
+#part2 {
     float: left;
     top: 680px;
     left: 255px;}
-    #covered {
+#covered {
     top: 150px;
     width: 630px;
-    height: 1000px;
-    } 
-    /*this is for styling the footer*/
-    footer {
-    background-color: #000000}
-    /*this is for styling helpkit page*/
-    #help {
+    height: 1000px;}
+
+/*this is for styling the footer*/
+footer {background-color: #000000}
+
+/*this is for styling helpkit page*/
+#help {
     width: 400px;
     height: 500px;
     top: 300px;
     left: 50px;}
-    
-    #bodytexts {
+#bodytexts {
     top: 320px;
     width: 380px;
     left: 60px;}
+#bodytexts p {
+    font-size: 20px;}
+
+/*this is for styling mentorpairing page*/
+figure {
+    top: 300px;
+    left: 60px;} 
+#bodytext {left: 60px;} 
     
-    #bodytexts p {
-    font-size: 20px;}}
+/*this is for styling the onesession page*/
+#group1 {
+    width: 600px;
+    height: 500px;
+    top: 230px;}
+#group1 img {
+    width: 150px;
+    height: 150px;}
+.alr {font-size: 18px;}
+.all {font-size: 18px;}
+#group2 {
+    width: 600px;
+    height: 500px;
+    float: left;
+    left: 200px;
+    top: 670px;}
+#group2 img {
+    width: 150px;
+    height: 150px;}
+#group3 {
+    width: 600px;
+    height: 500px;
+    top: 450px;
+    left: 200px;}
+#group3 img {
+    width: 150px;
+    height: 150px;}
+#group4 {
+    width: 600px;
+    height: 500px;
+    top: 900px;
+    left: 200px;}
+#group4 img {
+    width: 150px;
+    height: 150px;}
 
 /*this is for styling the iphone sizes*/    
 @media (max-width:414px){
-    /*for styling landing page*/
-    #menu{
-    display:none;}
-    #main h1{
+/*for styling landing page*/
+ul {right: 20px;}
+#menu{display:none;}
+#main h1{
     top: 25vh;
     left: 30vw;
     font-size: 6vw;}
-    .model {width: 570px;
+.model {width: 570px;
     height: 570px;
     left: -80px;
     top: 330px;}
-    .button {display: none;}
-    #main .middle {
+.button {display: none;}
+#main .middle {
     top: 30vh;
     left: 15vw;
     font-size: 4vw;}
 
-    /*for styling portfolio*/
-    .fa-bars{
+/*for styling portfolio*/
+.fa-bars{
     display:block !important;
     color:white;
     position:fixed;
     top:28px;
     left: 350px;
     font-size: 2em;}
-    
-    #card1 {
+#card1 {
     min-width: 100px;
     margin: 5px;
     padding: 5px;
@@ -630,13 +653,11 @@ table#t01 th {
     left: 20px;
     width: 165px;
     height: 200px;} 
-    
-    #card1 p{
+#card1 p{
     top: 160px;
     left: -10px;
     font-size: 15px;}
-    
-    #card2 {
+#card2 {
     min-width: 100px;
     margin: 5px;
     padding: 5px;
@@ -645,13 +666,11 @@ table#t01 th {
     left: 210px;
     width: 165px;
     height: 200px;} 
-
-    #card2 p{
+#card2 p{
     top: 160px;
     left: -10px;
     font-size: 15px;}
-
-    #card3 {
+#card3 {
     min-width: 100px;
     margin: 5px;
     padding: 5px;
@@ -660,13 +679,11 @@ table#t01 th {
     left: 20px;
     width: 165px;
     height: 200px;} 
-
-    #card3 p{
+#card3 p{
     top: 160px;
     left: -10px;
     font-size: 15px;}
-
-    #card4 {
+#card4 {
     min-width: 100px;
     margin: 5px;
     padding: 5px;
@@ -675,78 +692,113 @@ table#t01 th {
     left: 210px;
     width: 165px;
     height: 200px;} 
-
-    #card4 p{
+#card4 p{
     top: 160px;
     left: -10px;
     font-size: 15px;}
-
-    .portfolio h1 {
+.portfolio h1 {
     left: 10px;
     top: 130px;
     font-size: 1.8em;} 
-
-    .fa-user-alt {
+.fa-user-alt {
     left:25px;
     font-size: 100px;
     padding-top: 30px;
     width: 30%;}
-
-    .fa-users {
+.fa-users {
     left:12px;
     font-size: 100px;
     padding-top: 30px;
     width: 30%;}
-    
-    .fa-user-friends{
+.fa-user-friends{
     left:12px;
     font-size: 100px;
     padding-top: 30px;
     width: 30%;}
-
-    .fa-people-carry{
+.fa-people-carry{
     left:12px;
     font-size: 100px;
     padding-top: 30px;
     width: 30%;}
-
-    #below h5{
+#below h5{
     font-size: 15px;
     top: 630px;
     left: 25px;
     display: table;
     width: 400px;}
         
-    /*for styling contact page*/
-    #part2 {
-    display: none;}
-    #part1 {
-    left: 35px;} 
-    input {width: 300px;}
-    legend {font-size: 2em;}
-    textarea {width: 320px;}
-    #covered {
+/*for styling contact page*/
+#part2 {display: none;}
+#part1 {left: 35px;} 
+input {width: 300px;}
+legend {font-size: 2em;}
+textarea {width: 320px;}
+#covered {
     width: 370px;
     height: 550px;
-    left: 20px;
-        } 
+    left: 20px;} 
 
-    /*this is for styling the footer*/
-    footer {
-    height: 100px;}
-    .fab {
-    padding: 5px;}
+/*this is for styling the footer*/
+footer {height: 100px;}
+.fab {padding: 5px;}
 
-    /*this is for styling helpkit page*/
-    #help {
+/*this is for styling helpkit page*/
+h2 {
+    font-size: 30px;
+    top: 72px;}
+#help {
     top: 200px;
     left: 17px;
     width: 380px;}
-        
-    #bodytexts {
+#bodytexts {
     width: 360px;
     top: 220px;
     left: 27px;}
+
+/*this is for styling mentorpairing page*/
+figure {width: 380px;
+    left: 15px;
+    top: 190px;}
+video {width: 380px;}
+#bodytext {
+    width: 350px;
+    font-size: 18px;}
+
+/*this is for styling the onesession page*/
+#group1 {
+    width: 380px;
+    height: 300px;
+    top: 180px;
+    left: 10px;}
+#group1 img {
+    width: 90px;
+    height: 90px;}
+.alr {font-size: 12px;}
+.all {font-size: 12px;}
+#group2 {
+    width: 380px;
+    height: 300px;
+    left: 10px;
+    top: 470px;}
+#group2 img {
+    width: 90px;
+    height: 90px;}
+#group3 {
+    width: 380px;
+    height: 300px;
+    top: 330px;
+    left: 10px;}
+#group3 img {
+    width: 90px;
+    height: 90px;}
+#group4 {
+    width: 380px;
+    height: 300px;
+    top: 620px;
+    left: 10px;}
+#group4 img {
+    width: 90px;
+    height: 90px;}
 }
 
 
