@@ -213,8 +213,7 @@ span {
     height: 220px;
     transition: ease-in 2s;
     animation-name: two;
-    animation-duration: 2s;
-    animation-iteration-count: 2;}
+    animation-duration: 2s;}
     /*this is for the animation*/
 @keyframes two {
     from {
@@ -248,8 +247,7 @@ span {
     height: 220px;
     transition: ease-in 2s;
     animation-name: three;
-    animation-duration: 2s;
-    animation-iteration-count: 2;}
+    animation-duration: 2s;}
 /*this is for the animation*/
 @keyframes three {
     from {
@@ -282,8 +280,7 @@ span {
     height: 220px;
     transition: ease-in 2s;
     animation-name: four;
-    animation-duration: 2s;
-    animation-iteration-count: 2;}
+    animation-duration: 2s;}
 /*this is for the animation*/
 @keyframes four {
     from {
