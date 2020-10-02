@@ -601,7 +601,7 @@ ul {
     line-height: 30px;
     padding: 5px;
     margin-top: 60px;
-    right: 50px;
+    right: 55px;
     background-color: black;
     background-size: cover;}
 #menu{
@@ -615,7 +615,7 @@ ul {
     left: 15vw;}
 .model {top: 42vh;
     left: 3vw;}
-    /*for hamburger bar*/
+/*for hamburger bar*/
 .fa-bars{
     display:block !important;
     color:white;
@@ -735,9 +735,20 @@ figure {
 
 /*this is for styling the iphone sizes*/    
 @media (max-width:414px){
-/*for styling index page*/
-ul {right: 20px;}
+/*for the hamburger bar*/
+.fa-bars{
+    display:block !important;
+    color:white;
+    position:fixed;
+    top:28px;
+    left: 350px;
+    font-size: 2em;
+    z-index: 50000;}
+ul {right: 70px;
+    bottom: 745px;
+    z-index: 50000;}
 #menu{display:none;}
+/*for styling index page*/
 #main h1{
     top: 25vh;
     left: 30vw;
@@ -754,13 +765,6 @@ ul {right: 20px;}
 span {font-size: 35px;}
 
 /*for styling portfolio*/
-.fa-bars{
-    display:block !important;
-    color:white;
-    position:fixed;
-    top:28px;
-    left: 350px;
-    font-size: 2em;}
 #card1 {
     min-width: 100px;
     margin: 5px;
