@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--This is the "Schedule" page containing my table and alert button. It is linked to from the Landing page. Date: 02/10/2020. Ebunoluwa Olaniyan. Student Number: 504-219595-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
            <a href="contact"><li>Contact</li></a>
         </ul>
     </div>
-    <i class="fas fa-bars"></i>
+    
     <h2>Programme Schedule</h2>
     <table id="t01">
         <tr>
@@ -111,6 +111,10 @@
             <td>Victoria, Canada</td>
           </tr>
       </table>
+      <p>Click the button to demonstrate the prompt box.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="insert"></p>
+
       <footer>
         <div id="socialmedia"></div>
         <a href="https://www.instagram.com/ebuniyan/?hl=en"><i class="fab fa-instagram-square"></i></a>
@@ -119,6 +123,12 @@
         </div>
         <p>&copy;Ebun Olaniyan 2020. All rights reserved.</p>
      </footer>   
-    
+     <script>
+      function myFunction() {
+          var person = prompt("Please enter your name", "Harry Potter");
+          if (person != null) {
+              document.getElementById("insert").innerHTML = "Hello " + person + "! How are you today?";}}
+      </script>
+          
 </body>
 </html>

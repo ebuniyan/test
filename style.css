@@ -33,7 +33,7 @@ a:hover {color: #EDBC81;}
     min-width: 100%;
     min-height: 100%;
     background-size: cover;
-    z-index: -50000px;} 
+    z-index: -50000px;}   
 #main {
     color: white;
     position: fixed;
@@ -385,7 +385,12 @@ option {
     float: right;
     width: 500px;
     top: 330px;
-    left: 1100px;}      
+    left: 1100px;} 
+/*this is for audio styling*/    
+audio {
+    position: fixed;
+    top: 73vh;
+    left: 42%;}       
 
 /*this is for styling the hamburger bar*/    
 .fa-bars{
@@ -626,7 +631,7 @@ ul {
 .model {top: 42vh;
     left: 3vw;}
 
-    /*for styling porfolio page*/
+/*for styling porfolio page*/
 #below h5 {font-size: 2em; 
     width: 80vw;
     display: block;
@@ -658,6 +663,7 @@ input {height: 15px;}
     top: 11vh;
     width: 62vw;
     height: 73vh;}
+audio {display: none;}
 
 /*this is for styling the footer*/
 footer {background-color: #000000}
@@ -878,7 +884,8 @@ textarea {width: 320px;}
     top: 18vh;
     width: 90vw;
     height: 540px;
-    left: 20px;} 
+    left: 20px;}
+audio {display: none;} 
 
 /*this is for styling the footer*/
 footer {height: 10vh;}
