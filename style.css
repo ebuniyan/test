@@ -601,7 +601,7 @@ ul {
     line-height: 30px;
     padding: 5px;
     margin-top: 60px;
-    right: 55px;
+    right: 5vw;
     background-color: black;
     background-size: cover;}
 #menu{
@@ -759,10 +759,10 @@ ul {right: 17vw;
     top: 25vh;
     left: 30vw;
     font-size: 6vw;}
-.model {width: 120vw;
-    height: 55vh;
-    left: -8vw;
-    top: 45vh;}
+.model {width: 580px;
+    height: 580px;
+    left: -22vw;
+    top: 40vh;}
 .button {display: none;}
 #main .middle {
     top: 30vh;
@@ -802,7 +802,7 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 48vh;
+    top: 52vh;
     left: 20px;
     width: 165px;
     height: 200px;} 
@@ -815,7 +815,7 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 48vh;
+    top: 52vh;
     left: 50vw;
     width: 165px;
     height: 200px;} 
@@ -849,7 +849,7 @@ span {font-size: 35px;}
     width: 30%;}
 #below h5{
     font-size: 15px;
-    top: 70vh;
+    top: 76vh;
     left: 6vw;
     display: table;
     width: 400px;}
@@ -865,7 +865,7 @@ textarea {width: 320px;}
 #covered {
     top: 18vh;
     width: 90vw;
-    height: 60vh;
+    height: 540px;
     left: 20px;} 
 
 /*this is for styling the footer*/
@@ -875,7 +875,7 @@ footer {height: 10vh;}
 /*this is for styling helpkit page*/
 h2 {
     font-size: 30px;
-    top: 72px;}
+    top: 8vh}
 #help {
     top: 23vh;
     left: 5vw;
@@ -946,7 +946,7 @@ figure, .vid {
     width: 85vw;
     height: 22vh;
     left: -8vw;
-    top: 56vh}
+    top: 57vh}
 #second img {
     width: 150px;}
 .psecond {
