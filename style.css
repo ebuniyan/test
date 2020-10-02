@@ -113,7 +113,7 @@ span {
 /*this is for portfolio page styling*/
 .fa-user-alt {
     position: relative;;
-    left:60px;
+    left:65px;
     font-size: 150px;
     padding-top: 10px;
     color: white;
@@ -593,10 +593,10 @@ table#t01 th {
 /* This one is for iPad size css. If the width reaches 1024px, this new CSS rule will be applied */
 @media (max-width:1024px){
     /*for styling landing page*/
-h2 {top: 100px;}
+h2 {top: 7vh;}
 ul {
     position: fixed;
-    width: 120px;
+    width: 12vw;
     height: auto;
     line-height: 30px;
     padding: 5px;
@@ -625,109 +625,109 @@ ul {
     font-size: 2em;}
     /*for styling porfolio page*/
 #below h5 {font-size: 2em; 
-    width: 800px;
+    width: 80vw;
     display: block;
-    left: 120px;
-    top: 1000px;} 
-#card1 p {left: 50px;}
-#card2 p {left: 50px;}
-#card3 p {left: 50px;}
-#card4 p {left: 50px;} 
-#card1 {left: 180px; top: 380px;}
-#card2 {top: 380px;}
+    left: 12vw;
+    top: 70vh;} 
+#card1 p {left: 5vw;}
+#card2 p {left: 5vw;}
+#card3 p {left: 5vw;}
+#card4 p {left: 5vw;} 
+#card1 {left: 18vw; top: 28vh;}
+#card2 {top: 28vh;}
 #card3 {
-    left: 190px;
-    top: 700px;}
-#card4 {top: 690px;}
+    left: 19vw;
+    top: 50vh;}
+#card4 {top: 49.3vh;}
 .portfolio h1 {
-    left: 130px;
-    top: 200px;}
+    left: 13vw;
+    top: 15vh;}
     /*this is for contact page*/
 #part1 {
-    top: 200px;
-    left: 250px;} 
+    top: 15vh;
+    left: 24.5vw;} 
 input {height: 15px;}
 #part2 {
     float: left;
-    top: 680px;
-    left: 255px;}
+    top: 50vh;
+    left: 25vw;}
 #covered {
-    top: 150px;
-    width: 630px;
-    height: 1000px;}
+    top: 11vh;
+    width: 62vw;
+    height: 73vh;}
 
 /*this is for styling the footer*/
 footer {background-color: #000000}
 
 /*this is for styling helpkit page*/
 #help {
-    width: 400px;
-    height: 500px;
-    top: 300px;
-    left: 50px;}
+    width: 40vw;
+    height: 35vh;
+    top: 22vh;
+    left: 5vw}
 #bodytexts {
-    top: 320px;
-    width: 380px;
-    left: 60px;}
+    top: 23vh;
+    width: 36vw;
+    left: 7vw;}
 #bodytexts p {
     font-size: 20px;}
 
 /*this is for styling mentorpairing page*/
 figure {
-    top: 300px;
-    left: 60px;} 
-#bodytext {left: 60px;}
+    top: 23vh;
+    left: 6vw;} 
+#bodytext {left: 6vw;}
     
 /*this is for styling the onesession page*/
 #group1 {
-    width: 600px;
-    height: 500px;
-    top: 230px;}
+    width: 60vw;
+    height: 40vh;
+    top: 17vh;}
 #group1 img {
     width: 150px;
     height: 150px;}
 .alr {font-size: 18px;}
 .all {font-size: 18px;}
 #group2 {
-    width: 600px;
-    height: 500px;
+    width: 60vw;
+    height: 40vh;
     float: left;
-    left: 200px;
-    top: 670px;}
+    left: 20vw;
+    top: 50vh;}
 #group2 img {
     width: 150px;
     height: 150px;}
 #group3 {
-    width: 600px;
-    height: 500px;
-    top: 450px;
-    left: 200px;}
+    width: 60vw;
+    height: 40vh;
+    top: 33vh;
+    left: 20vw;}
 #group3 img {
     width: 150px;
     height: 150px;}
 #group4 {
-    width: 600px;
-    height: 500px;
-    top: 900px;
-    left: 200px;}
+    width: 60vw;
+    height: 40vh;
+    top: 65vh;
+    left: 20vw;}
 #group4 img {
     width: 150px;
     height: 150px;}
 /*this is for styling groupsession page*/
 #first {
-    width: 800px;
-    height: 400px;
-    left: 50px;
-    top: 230px;}
+    width: 80vw;
+    height: 30vh;
+    left: 5vw;
+    top: 17vh;}
 #first img {
     width: 400px;}
 .pfirst {
     font-size: 25px;}    
 #second {
-    width: 800px;
-    height: 320px;
-    left: 50px;
-    top: 730px;}
+    width: 80vw;
+    height: 25vh;
+    left: 5vw;
+    top: 55vh;}
 #second img {
     width: 400px;}
 .psecond {
@@ -744,19 +744,25 @@ figure {
     left: 350px;
     font-size: 2em;
     z-index: 50000;}
-ul {right: 70px;
-    bottom: 745px;
-    z-index: 50000;}
+ul {right: 17vw;
+    bottom: 83vh;
+    z-index: 50000;
+    width: 30vw;
+    height: auto;
+    line-height: 3opx;
+    padding: 5px;
+    margin-top: 60px;
+    background-size: cover;}
 #menu{display:none;}
 /*for styling index page*/
 #main h1{
     top: 25vh;
     left: 30vw;
     font-size: 6vw;}
-.model {width: 570px;
-    height: 570px;
-    left: -80px;
-    top: 330px;}
+.model {width: 120vw;
+    height: 55vh;
+    left: -8vw;
+    top: 45vh;}
 .button {display: none;}
 #main .middle {
     top: 30vh;
@@ -770,8 +776,8 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 200px;
-    left: 20px;
+    top: 22vh;
+    left: 5vw;
     width: 165px;
     height: 200px;} 
 #card1 p{
@@ -783,8 +789,8 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 200px;
-    left: 210px;
+    top: 22vh;
+    left: 50vw;
     width: 165px;
     height: 200px;} 
 #card2 p{
@@ -796,7 +802,7 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 420px;
+    top: 48vh;
     left: 20px;
     width: 165px;
     height: 200px;} 
@@ -809,8 +815,8 @@ span {font-size: 35px;}
     margin: 5px;
     padding: 5px;
     position: fixed;
-    top: 420px;
-    left: 210px;
+    top: 48vh;
+    left: 50vw;
     width: 165px;
     height: 200px;} 
 #card4 p{
@@ -818,8 +824,8 @@ span {font-size: 35px;}
     left: -10px;
     font-size: 15px;}
 .portfolio h1 {
-    left: 10px;
-    top: 130px;
+    left: 3vw;
+    top: 13vh;
     font-size: 1.8em;} 
 .fa-user-alt {
     left:25px;
@@ -843,24 +849,27 @@ span {font-size: 35px;}
     width: 30%;}
 #below h5{
     font-size: 15px;
-    top: 630px;
-    left: 25px;
+    top: 70vh;
+    left: 6vw;
     display: table;
     width: 400px;}
         
 /*for styling contact page*/
 #part2 {display: none;}
-#part1 {left: 35px;} 
+#part1 {
+    left: 10vw;
+    top: 22vh;} 
 input {width: 300px;}
 legend {font-size: 2em;}
 textarea {width: 320px;}
 #covered {
-    width: 370px;
-    height: 550px;
+    top: 18vh;
+    width: 90vw;
+    height: 60vh;
     left: 20px;} 
 
 /*this is for styling the footer*/
-footer {height: 100px;}
+footer {height: 10vh;}
 .fab {padding: 5px;}
 
 /*this is for styling helpkit page*/
@@ -868,9 +877,10 @@ h2 {
     font-size: 30px;
     top: 72px;}
 #help {
-    top: 200px;
-    left: 17px;
-    width: 380px;}
+    top: 23vh;
+    left: 5vw;
+    width: 90vw;
+    height: 55vh;}
 #bodytexts {
     width: 360px;
     top: 220px;
@@ -878,8 +888,8 @@ h2 {
 
 /*this is for styling mentorpairing page*/
 figure {width: 380px;
-    left: 15px;
-    top: 190px;}
+    left: 4vw;
+    top: 22vh;}
 figure, .vid {
     width: 380px;} 
 #bodytext {
@@ -888,55 +898,55 @@ figure, .vid {
 
 /*this is for styling the onesession page*/
 #group1 {
-    width: 380px;
-    height: 300px;
-    top: 180px;
-    left: 10px;}
+    width: 90vw;
+    height: 17vh;
+    top: 20vh;
+    left: 3vw;}
 #group1 img {
     width: 90px;
     height: 90px;}
 .alr {font-size: 12px;}
 .all {font-size: 12px;}
 #group2 {
-    width: 380px;
-    height: 300px;
-    left: 10px;
-    top: 470px;}
+    width: 90vw;
+    height: 17vh;
+    left: 3vw;
+    top: 53vh;}
 #group2 img {
     width: 90px;
     height: 90px;}
 #group3 {
-    width: 380px;
-    height: 300px;
-    top: 330px;
-    left: 10px;}
+    width: 90vw;
+    height: 17vh;
+    top: 37vh;
+    left: 3vw}
 #group3 img {
     width: 90px;
     height: 90px;}
 #group4 {
-    width: 380px;
-    height: 300px;
-    top: 620px;
-    left: 10px;}
+    width: 90vw;
+    height: 17vh;
+    top: 69vh;
+    left: 3vw;}
 #group4 img {
     width: 90px;
     height: 90px;}
 
 /*this is for styling groupsession page*/
 #first {
-    width: 330px;
-    height: 280px;
-    left: -20px;
-    top: 170px;}
+    width: 85vw;
+    height: 30vh;
+    left: -8vw;
+    top: 20vh;}
 #first img {
     width: 150px;}
 .pfirst {
     font-size: 15px;}    
 #second {
-    width: 330px;
-    height: 210px;
-    left: -20px;
-    top: 500px;}
+    width: 85vw;
+    height: 22vh;
+    left: -8vw;
+    top: 56vh}
 #second img {
     width: 150px;}
 .psecond {
