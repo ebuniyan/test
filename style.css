@@ -9,6 +9,7 @@ html {
     top: 10px;
     left: 20px;
     background-size: cover;} 
+body {overflow: auto;}
 
 /*this is for styling the navigation bar*/
 #menu {
@@ -592,7 +593,7 @@ table#t01 th {
 
 /* This one is for iPad size css. If the width reaches 1024px, this new CSS rule will be applied */
 @media (max-width:1024px){
-    /*for styling landing page*/
+/*this is for general page styling*/
 h2 {top: 7vh;}
 ul {
     position: fixed;
@@ -604,8 +605,17 @@ ul {
     right: 5vw;
     background-color: black;
     background-size: cover;}
-#menu{
-    display:none;}
+#menu{display:none;}
+/*for hamburger bar*/
+.fa-bars{
+    display:block !important;
+    color:white;
+    position:fixed;
+    top:30px;
+    left: 940px;
+    font-size: 2em;}
+
+/*for styling landing page*/
 #main h1{
     top: 20vh;
     left: 30vw;}
@@ -615,14 +625,7 @@ ul {
     left: 15vw;}
 .model {top: 42vh;
     left: 3vw;}
-/*for hamburger bar*/
-.fa-bars{
-    display:block !important;
-    color:white;
-    position:fixed;
-    top:30px;
-    left: 940px;
-    font-size: 2em;}
+
     /*for styling porfolio page*/
 #below h5 {font-size: 2em; 
     width: 80vw;
@@ -719,6 +722,10 @@ figure {
     height: 30vh;
     left: 5vw;
     top: 17vh;}
+#first::after {
+    content: "";
+    clear: both;
+    display: table;}
 #first img {
     width: 400px;}
 .pfirst {
@@ -728,6 +735,10 @@ figure {
     height: 25vh;
     left: 5vw;
     top: 55vh;}
+#second::after {
+    content: "";
+    clear: both;
+    display: table;}    
 #second img {
     width: 400px;}
 .psecond {
@@ -754,6 +765,7 @@ ul {right: 17vw;
     margin-top: 60px;
     background-size: cover;}
 #menu{display:none;}
+
 /*for styling index page*/
 #main h1{
     top: 25vh;
