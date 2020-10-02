@@ -179,8 +179,7 @@ span {
     height: 220px;
     transition: ease-in 2s;
     animation-name: one;
-    animation-duration: 2s;
-    animation-iteration-count: 2;}
+    animation-duration: 2s;}
 /*this is for the animation*/
 @keyframes one {
     from {
